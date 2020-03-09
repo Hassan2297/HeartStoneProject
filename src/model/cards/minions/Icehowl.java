@@ -1,6 +1,5 @@
 package model.cards.minions;
 
-import model.cards.Minion;
 import model.cards.Rarity;
 
 /**

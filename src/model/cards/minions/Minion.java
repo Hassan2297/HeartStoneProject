@@ -28,6 +28,10 @@ public class Minion extends Card {
         this.attacked = attacked;
     }
 
+    public Minion(String icehowl, int i, Rarity legendary) {
+        super(icehowl,i,legendary);
+    }
+
     public int getAttack() {
         return attack;
     }
