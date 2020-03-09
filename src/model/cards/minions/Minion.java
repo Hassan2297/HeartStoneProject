@@ -9,23 +9,21 @@ import model.cards.Rarity;
  *
  * **/
 public class Minion extends Card {
-    protected int attack;
-    protected int maxHP;
-    protected int currentHP;
-    protected boolean taunt;
-    protected boolean divine;
-    protected boolean sleeping;
-    protected boolean attacked;
+    private int attack;
+    private int maxHP;
+    private int currentHP;
+    private boolean taunt;
+    private boolean divine;
+    private boolean sleeping;
+    private boolean attacked;
 
-    public Minion(String name, int manaCost, Rarity rarity, int attack, int maxHP, int currentHP, boolean taunt, boolean divine, boolean sleeping, boolean attacked) {
+    public Minion(String name, int manaCost, Rarity rarity, int attack, int maxHP, boolean taunt, boolean divine, boolean charge) {
         super(name, manaCost, rarity);
         this.attack = attack;
         this.maxHP = maxHP;
-        this.currentHP = currentHP;
         this.taunt = taunt;
         this.divine = divine;
-        this.sleeping = sleeping;
-        this.attacked = attacked;
+        this.sleeping = charge;
     }
 
     public Minion(String icehowl, int i, Rarity legendary) {

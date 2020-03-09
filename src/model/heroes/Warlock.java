@@ -11,7 +11,8 @@ import java.util.ArrayList;
  *
  * **/
 public class Warlock extends Hero {
-    public Warlock(String name) {
-        super("Gul’dan");
+
+    public Warlock() {
+        super("Gul'dan");
     }
 }

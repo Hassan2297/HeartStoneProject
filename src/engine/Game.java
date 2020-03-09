@@ -9,10 +9,10 @@ import model.heroes.Hero;
  *
  * **/
 public class Game {
-    Hero firstHero;
-    Hero secondHero;
-    Hero currentHero;
-    Hero opponent;
+    private Hero firstHero;
+    private Hero secondHero;
+    private Hero currentHero;
+    private Hero opponent;
 
     public Game(Hero p1, Hero p2) {
         this.firstHero = p1;

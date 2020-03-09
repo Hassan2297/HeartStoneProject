@@ -11,18 +11,19 @@ import java.util.ArrayList;
  *
  * **/
 public abstract class Hero {
-    protected String name;
-    protected int currentHP;
-    protected boolean heroPowerUsed;
-    protected int totalManaCrystals;
-    protected int currentManaCrystals;
-    protected ArrayList<Card> deck;
-    protected ArrayList<Minion> field;
-    protected ArrayList<Card> hand;
-    protected int fatigueDamage;
+    private String name;
+    private int currentHP;
+    private boolean heroPowerUsed;
+    private int totalManaCrystals;
+    private int currentManaCrystals;
+    private ArrayList<Card> deck;
+    private ArrayList<Minion> field;
+    private ArrayList<Card> hand;
+    private int fatigueDamage;
 
     public Hero(String name) {
         this.name = name;
+        this.currentHP = 30;
     }
 
     public String getName() {
@@ -77,15 +78,15 @@ public abstract class Hero {
         return hand;
     }
 
-    static ArrayList<Minion> getAllNeutralMinions(String filePath) throws IOException{
+    public static ArrayList<Minion> getAllNeutralMinions(String filePath) throws IOException{
 
         return null;
     }
-    static ArrayList<Minion> getNeutralMinions(ArrayList<Minion> minions,int count){
+    public static ArrayList<Minion> getNeutralMinions(ArrayList<Minion> minions,int count){
 
         return minions;
     }
-    void buildDeck() throws IOException{
+    public void buildDeck() throws IOException{
 
     }
 }

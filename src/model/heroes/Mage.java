@@ -1,7 +1,7 @@
 package model.heroes;
 
 public class Mage extends Hero {
-    public Mage(String name) {
+    public Mage() {
         super("Jaina Proudmoore");
     }
 }
