@@ -9,13 +9,13 @@ import model.cards.Rarity;
  *
  * **/
 public class Minion extends Card {
-    int attack;
-    int maxHP;
-    int currentHP;
-    boolean taunt;
-    boolean divine;
-    boolean sleeping;
-    boolean attacked;
+    protected int attack;
+    protected int maxHP;
+    protected int currentHP;
+    protected boolean taunt;
+    protected boolean divine;
+    protected boolean sleeping;
+    protected boolean attacked;
 
     public Minion(String name, int manaCost, Rarity rarity, int attack, int maxHP, int currentHP, boolean taunt, boolean divine, boolean sleeping, boolean attacked) {
         super(name, manaCost, rarity);

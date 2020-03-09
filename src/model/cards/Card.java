@@ -4,7 +4,7 @@ package model.cards;
  * A class representing a game card. No objects of type Card can be instantiated.
  *
  * **/
-public class Card {
+public abstract class Card {
     String name;
     int manaCost;
     Rarity rarity;

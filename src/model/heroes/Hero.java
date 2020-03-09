@@ -11,15 +11,15 @@ import java.util.ArrayList;
  *
  * **/
 public abstract class Hero {
-    String name;
-    int currentHP;
-    boolean heroPowerUsed;
-    int totalManaCrystals;
-    int currentManaCrystals;
-    ArrayList<Card> deck;
-    ArrayList<Minion> field;
-    ArrayList<Card> hand;
-    int fatigueDamage;
+    protected String name;
+    protected int currentHP;
+    protected boolean heroPowerUsed;
+    protected int totalManaCrystals;
+    protected int currentManaCrystals;
+    protected ArrayList<Card> deck;
+    protected ArrayList<Minion> field;
+    protected ArrayList<Card> hand;
+    protected int fatigueDamage;
 
     public Hero(String name) {
         this.name = name;
