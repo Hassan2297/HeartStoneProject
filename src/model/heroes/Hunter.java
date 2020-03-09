@@ -11,5 +11,7 @@ import java.util.ArrayList;
  *
  * **/
 public class Hunter extends Hero {
-    super("Rexxar");
+    public Hunter(String name) {
+        super("Rexxar");
+    }
 }
