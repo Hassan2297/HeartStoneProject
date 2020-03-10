@@ -5,9 +5,9 @@ package model.cards;
  *
  * **/
 public abstract class Card {
-    String name;
-    int manaCost;
-    Rarity rarity;
+    private String name;
+    private int manaCost;
+    private Rarity rarity;
 
     public Card(String name, int manaCost, Rarity rarity) {
         this.name = name;

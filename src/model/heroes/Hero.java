@@ -64,7 +64,14 @@ public abstract class Hero {
     }
 
     public void setCurrentManaCrystals(int currentManaCrystals) {
-        this.currentManaCrystals = currentManaCrystals;
+        if(currentManaCrystals <= 10){
+            this.currentManaCrystals = currentManaCrystals;
+        }
+        else
+        {
+            this.currentManaCrystals = 10;
+        }
+
     }
 
     public ArrayList<Card> getDeck() {
@@ -83,15 +90,15 @@ public abstract class Hero {
         return hand;
     }
 
-    private static final ArrayList<Minion> getAllNeutralMinions(String filePath) throws IOException{
+    public static final ArrayList<Minion> getAllNeutralMinions(String filePath) throws IOException{
 
         return null;
     }
-    private static final ArrayList<Minion> getNeutralMinions(ArrayList<Minion> minions,int count){
+    public static final ArrayList<Minion> getNeutralMinions(ArrayList<Minion> minions,int count){
 
         return minions;
     }
-    private void buildDeck() throws IOException{
+    public void buildDeck() throws IOException{
 
     }
 }
