@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ad184fce-241d-48a2-aed4-ff3747c0938d" name="Default Changelist" comment="heroes classes refactored">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HeartStone/engine/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HeartStone/engine/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HeartStone/model/heroes/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HeartStone/model/heroes/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/cards/minions/Icehowl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/minions/Icehowl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/cards/minions/Minion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/minions/Minion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/heroes/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/heroes/Hero.java" afterDir="false" />
     </list>
@@ -62,7 +65,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M1PublicTests.testConstructorInitialization3100LevelUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="M1PublicTests.testConstructorInitialization3800Icehowl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HeartStone" />
       <extension name="coverage">
         <pattern>
@@ -72,13 +75,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.M1PublicTests" />
-      <option name="METHOD_NAME" value="testConstructorInitialization3100LevelUp" />
+      <option name="METHOD_NAME" value="testConstructorInitialization3800Icehowl" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M1PublicTests.testConstructorInitialization3700Minion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="M1PublicTests.testConstructorInitialization4900Game" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HeartStone" />
       <extension name="coverage">
         <pattern>
@@ -88,7 +91,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.M1PublicTests" />
-      <option name="METHOD_NAME" value="testConstructorInitialization3700Minion" />
+      <option name="METHOD_NAME" value="testConstructorInitialization4900Game" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M1PublicTests.testSetterLogicForInstanceVariableCurrentHPhunter00int68InClassHero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="M1PublicTests.testSpecialLegendaryMinionForWarlock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HeartStone" />
       <extension name="coverage">
         <pattern>
@@ -120,7 +123,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.M1PublicTests" />
-      <option name="METHOD_NAME" value="testSetterLogicForInstanceVariableCurrentHPhunter00int68InClassHero" />
+      <option name="METHOD_NAME" value="testSpecialLegendaryMinionForWarlock" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,10 +144,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.M1PublicTests" />
-        <item itemvalue="JUnit.M1PublicTests.testConstructorInitialization3700Minion" />
-        <item itemvalue="JUnit.M1PublicTests.testSetterLogicForInstanceVariableCurrentHPhunter00int68InClassHero" />
+        <item itemvalue="JUnit.M1PublicTests.testConstructorInitialization3800Icehowl" />
         <item itemvalue="JUnit.M1PublicTests.testCountOfCardsFromGetNeutralMinionsMethod" />
-        <item itemvalue="JUnit.M1PublicTests.testConstructorInitialization3100LevelUp" />
+        <item itemvalue="JUnit.M1PublicTests.testConstructorInitialization4900Game" />
+        <item itemvalue="JUnit.M1PublicTests.testSpecialLegendaryMinionForWarlock" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +186,7 @@
       <workItem from="1583776760092" duration="7416000" />
       <workItem from="1583823477638" duration="5347000" />
       <workItem from="1583841209211" duration="3583000" />
-      <workItem from="1583851807601" duration="857000" />
+      <workItem from="1583851807601" duration="7537000" />
     </task>
     <task id="LOCAL-00001" summary="heroes classes refactored">
       <created>1583739206921</created>
@@ -238,38 +241,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="69" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583737964942" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583852853770">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583865063069">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583852853770" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583852853770">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583865063069" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583865063069">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583852853770" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583852853770">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583865063069" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583865063068">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583852853770" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583852853770">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583865063068" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583865063069">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583852853770" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1583831163194">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583865063069" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1583863651715">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583831163194" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1583831163194">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583863651715" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1583863651715">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1583831163194" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1583831163194">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1583863651715" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1583863651714">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1583831163194" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1583831163194">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1583863651714" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1583863651715">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583831163194" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583863651715" />
     <state x="350" y="70" key="NewModule_or_Project.wizard" timestamp="1583659547632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -300,8 +303,56 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tests/M1PublicTests.java</url>
-          <line>3522</line>
-          <option name="timeStamp" value="8" />
+          <line>3526</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/M1PublicTests.java</url>
+          <line>3532</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/M1PublicTests.java</url>
+          <line>3528</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/M1PublicTests.java</url>
+          <line>3538</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/M1PublicTests.java</url>
+          <line>3539</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/M1PublicTests.java</url>
+          <line>3543</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/M1PublicTests.java</url>
+          <line>3533</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/M1PublicTests.java</url>
+          <line>3534</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/M1PublicTests.java</url>
+          <line>3542</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/tests/M1PublicTests.java</url>
+          <line>4155</line>
+          <properties class="tests.M1PublicTests" method="testConstructorInitialization4900Game">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

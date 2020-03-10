@@ -5,6 +5,8 @@ import model.cards.minions.Minion;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Random;
+
 /**
  *
  *   A class representing a hero. No objects of type Hero can be instantiated.
@@ -16,7 +18,7 @@ public abstract class Hero {
     private boolean heroPowerUsed;
     private int totalManaCrystals;
     private int currentManaCrystals;
-    private ArrayList<Card> deck;
+    protected ArrayList<Card> deck;
     private ArrayList<Minion> field;
     private ArrayList<Card> hand;
     private int fatigueDamage;
@@ -101,7 +103,16 @@ public abstract class Hero {
         return null;
     }
     public static final ArrayList<Minion> getNeutralMinions(ArrayList<Minion> minions,int count){
-        return minions;
+        int min = Math.abs(count - minions.size());
+        ArrayList<Minion> toReturn = minions;
+        if(min != 0){
+            for(int i=0;i<min;i++){
+                Random r = new Random();
+                int re = r.nextInt(min);
+                toReturn.add(toReturn.get(re));
+            }
+        }
+        return toReturn;
     }
     public void buildDeck() throws IOException{
 

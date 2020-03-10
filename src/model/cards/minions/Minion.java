@@ -27,8 +27,10 @@ public class Minion extends Card {
         this.currentHP = maxHP;
     }
 
-    public Minion(String icehowl, int i, Rarity legendary) {
+    public Minion(String icehowl, int i, Rarity legendary, int currentHP, int maxHP) {
         super(icehowl,i,legendary);
+        this.maxHP = maxHP;
+        this.currentHP = maxHP;
     }
 
     public int getAttack() {
@@ -36,7 +38,10 @@ public class Minion extends Card {
     }
 
     public void setAttack(int attack) {
-        this.attack = attack;
+        if(attack >0)
+            this.attack = attack;
+        else
+            this.attack = 0;
     }
 
     public int getMaxHP() {
