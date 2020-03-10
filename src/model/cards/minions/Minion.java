@@ -23,7 +23,8 @@ public class Minion extends Card {
         this.maxHP = maxHP;
         this.taunt = taunt;
         this.divine = divine;
-        this.sleeping = charge;
+        this.sleeping = true;
+        this.currentHP = maxHP;
     }
 
     public Minion(String icehowl, int i, Rarity legendary) {
@@ -51,7 +52,13 @@ public class Minion extends Card {
     }
 
     public void setCurrentHP(int currentHP) {
-        this.currentHP = currentHP;
+        if(currentHP <= maxHP){
+            this.currentHP = currentHP;
+        }
+        else {
+            this.currentHP = 30;
+        }
+
     }
 
     public boolean isTaunt() {

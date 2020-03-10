@@ -4,8 +4,7 @@
     <list default="true" id="ad184fce-241d-48a2-aed4-ff3747c0938d" name="Default Changelist" comment="heroes classes refactored">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HeartStone/model/heroes/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HeartStone/model/heroes/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/cards/spells/LevelUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/spells/LevelUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/cards/minions/Minion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/minions/Minion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/heroes/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/heroes/Hero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +78,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M1PublicTests.testConstructorInitialization3800Icehowl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="M1PublicTests.testConstructorInitialization3700Minion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HeartStone" />
       <extension name="coverage">
         <pattern>
@@ -89,13 +88,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.M1PublicTests" />
-      <option name="METHOD_NAME" value="testConstructorInitialization3800Icehowl" />
+      <option name="METHOD_NAME" value="testConstructorInitialization3700Minion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M1PublicTests.testInstanceVariableManaCostInClassIsPresentAndIsPrivateCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="M1PublicTests.testCountOfCardsFromGetNeutralMinionsMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HeartStone" />
       <extension name="coverage">
         <pattern>
@@ -105,13 +104,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.M1PublicTests" />
-      <option name="METHOD_NAME" value="testInstanceVariableManaCostInClassIsPresentAndIsPrivateCard" />
+      <option name="METHOD_NAME" value="testCountOfCardsFromGetNeutralMinionsMethod" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M1PublicTests.testSetterLogicForInstanceVariableCurrentManaCrystalshunter00int27InClassHero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="M1PublicTests.testSetterLogicForInstanceVariableCurrentHPhunter00int68InClassHero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HeartStone" />
       <extension name="coverage">
         <pattern>
@@ -121,7 +120,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.M1PublicTests" />
-      <option name="METHOD_NAME" value="testSetterLogicForInstanceVariableCurrentManaCrystalshunter00int27InClassHero" />
+      <option name="METHOD_NAME" value="testSetterLogicForInstanceVariableCurrentHPhunter00int68InClassHero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,10 +141,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.M1PublicTests" />
+        <item itemvalue="JUnit.M1PublicTests.testConstructorInitialization3700Minion" />
+        <item itemvalue="JUnit.M1PublicTests.testSetterLogicForInstanceVariableCurrentHPhunter00int68InClassHero" />
+        <item itemvalue="JUnit.M1PublicTests.testCountOfCardsFromGetNeutralMinionsMethod" />
         <item itemvalue="JUnit.M1PublicTests.testConstructorInitialization3100LevelUp" />
-        <item itemvalue="JUnit.M1PublicTests.testConstructorInitialization3800Icehowl" />
-        <item itemvalue="JUnit.M1PublicTests.testInstanceVariableManaCostInClassIsPresentAndIsPrivateCard" />
-        <item itemvalue="JUnit.M1PublicTests.testSetterLogicForInstanceVariableCurrentManaCrystalshunter00int27InClassHero" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +182,8 @@
       <workItem from="1583745338140" duration="1129000" />
       <workItem from="1583776760092" duration="7416000" />
       <workItem from="1583823477638" duration="5347000" />
-      <workItem from="1583841209211" duration="3219000" />
+      <workItem from="1583841209211" duration="3583000" />
+      <workItem from="1583851807601" duration="857000" />
     </task>
     <task id="LOCAL-00001" summary="heroes classes refactored">
       <created>1583739206921</created>
@@ -238,22 +238,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="69" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583737964942" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583850672651">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583852853770">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583850672651" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583850672651">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583852853770" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583852853770">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583850672651" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583850672651">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583852853770" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583852853770">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583850672651" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583850672651">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583852853770" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583852853770">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583850672651" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583852853770" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1583831163194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -278,10 +278,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="422" y="79" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583829963604" />
-    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1583841296593">
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1583851808165">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583841296593" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583851808165" />
     <state x="387" y="266" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583736211588">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

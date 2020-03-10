@@ -11,7 +11,15 @@ public abstract class Card {
 
     public Card(String name, int manaCost, Rarity rarity) {
         this.name = name;
-        this.manaCost = manaCost;
+        if(manaCost < 0){
+            this.manaCost = 0;
+        }
+        else if(manaCost >= 10){
+            this.manaCost = 10;
+        }
+        else{
+            this.manaCost = manaCost;
+        }
         this.rarity = rarity;
     }
 

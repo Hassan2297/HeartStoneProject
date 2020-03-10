@@ -35,7 +35,13 @@ public abstract class Hero {
     }
 
     public void setCurrentHP(int currentHP) {
-        this.currentHP = currentHP;
+        if(currentHP <= 30){
+            this.currentHP = currentHP;
+        }
+        else {
+            this.currentHP = 30;
+        }
+
     }
 
     public boolean isHeroPowerUsed() {
@@ -95,7 +101,6 @@ public abstract class Hero {
         return null;
     }
     public static final ArrayList<Minion> getNeutralMinions(ArrayList<Minion> minions,int count){
-
         return minions;
     }
     public void buildDeck() throws IOException{
