@@ -3,38 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ad184fce-241d-48a2-aed4-ff3747c0938d" name="Default Changelist" comment="heroes classes refactored">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/engine/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/CannotAttackException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/CannotAttackException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/FullFieldException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/FullFieldException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/FullHandException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/FullHandException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/HearthstoneException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/HearthstoneException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/HeroPowerAlreadyUsedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/HeroPowerAlreadyUsedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/InvalidTargetException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/InvalidTargetException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/NotEnoughManaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/NotEnoughManaException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/NotSummonedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/NotSummonedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/NotYourTurnException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/NotYourTurnException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/TauntBypassException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/TauntBypassException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/cards/minions/Icehowl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/minions/Icehowl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/cards/minions/Minion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/minions/Minion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/cards/spells/spellsSubclass/CurseOfWeakness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/spells/CurseOfWeakness.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/cards/spells/spellsSubclass/DivineSpirit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/spells/DivineSpirit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/cards/spells/spellsSubclass/Flamestrike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/spells/Flamestrike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/cards/spells/spellsSubclass/HolyNova.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/spells/HolyNova.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/cards/spells/spellsSubclass/KillCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/spells/KillCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/cards/spells/spellsSubclass/LevelUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/spells/LevelUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/cards/spells/spellsSubclass/MultiShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/spells/MultiShot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/cards/spells/spellsSubclass/Polymorph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/spells/Polymorph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/cards/spells/spellsSubclass/Pyroblast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/spells/Pyroblast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/cards/spells/spellsSubclass/SealOfChampions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/spells/SealOfChampions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/cards/spells/spellsSubclass/ShadowWordDeath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/spells/ShadowWordDeath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/cards/spells/spellsSubclass/SiphonSoul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/spells/SiphonSoul.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/cards/spells/spellsSubclass/TwistingNether.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/spells/TwistingNether.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HeartStone/model/heroes/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HeartStone/model/heroes/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/cards/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/heroes/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/heroes/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/heroes/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/heroes/Hunter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/heroes/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/heroes/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/heroes/Paladin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/heroes/Paladin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/heroes/Priest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/heroes/Priest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/heroes/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/heroes/Warlock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +62,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M1PublicTests.testClassIsAbstractHearthstoneException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="M1PublicTests.testGetAllNeutralMinionsisFinal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HeartStone" />
       <extension name="coverage">
         <pattern>
@@ -101,13 +72,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.M1PublicTests" />
-      <option name="METHOD_NAME" value="testClassIsAbstractHearthstoneException" />
+      <option name="METHOD_NAME" value="testGetAllNeutralMinionsisFinal" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M1PublicTests.testConstructorInitialization4900Game" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="M1PublicTests.testSetterLogicForInstanceVariableManaCosticehowl00int50InClassCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HeartStone" />
       <extension name="coverage">
         <pattern>
@@ -117,13 +88,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.M1PublicTests" />
-      <option name="METHOD_NAME" value="testConstructorInitialization4900Game" />
+      <option name="METHOD_NAME" value="testSetterLogicForInstanceVariableManaCosticehowl00int50InClassCard" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M1PublicTests.testInstanceVariableBurnedInClassIsPresentAndIsPrivateFullHandException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="M1PublicTests.testSetterLogicForInstanceVariableManaCostminion00int85InClassCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HeartStone" />
       <extension name="coverage">
         <pattern>
@@ -133,7 +104,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.M1PublicTests" />
-      <option name="METHOD_NAME" value="testInstanceVariableBurnedInClassIsPresentAndIsPrivateFullHandException" />
+      <option name="METHOD_NAME" value="testSetterLogicForInstanceVariableManaCostminion00int85InClassCard" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,10 +141,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.M1PublicTests" />
-        <item itemvalue="JUnit.M1PublicTests.testClassIsAbstractHearthstoneException" />
-        <item itemvalue="JUnit.M1PublicTests.testConstructorInitialization4900Game" />
+        <item itemvalue="JUnit.M1PublicTests.testSetterLogicForInstanceVariableManaCostminion00int85InClassCard" />
+        <item itemvalue="JUnit.M1PublicTests.testGetAllNeutralMinionsisFinal" />
+        <item itemvalue="JUnit.M1PublicTests.testSetterLogicForInstanceVariableManaCosticehowl00int50InClassCard" />
         <item itemvalue="JUnit.M1PublicTests.testSetterLogicForInstanceVariableTotalManaCrystalsmage00int67InClassHero" />
-        <item itemvalue="JUnit.M1PublicTests.testInstanceVariableBurnedInClassIsPresentAndIsPrivateFullHandException" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +180,8 @@
       <workItem from="1583744664092" duration="42000" />
       <workItem from="1583744917257" duration="83000" />
       <workItem from="1583745338140" duration="1129000" />
-      <workItem from="1583776760092" duration="6975000" />
+      <workItem from="1583776760092" duration="7416000" />
+      <workItem from="1583823477638" duration="5200000" />
     </task>
     <task id="LOCAL-00001" summary="heroes classes refactored">
       <created>1583739206921</created>
@@ -244,10 +216,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="minions classes refactored" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583783708120">
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583828271692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1583783708120" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1583828271692" />
     <state x="488" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1583780187799">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -260,46 +232,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="69" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583737964942" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583783965744">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583831021873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583783965744" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583783965743">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583831021873" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583831021873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583783965743" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583783965743">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583831021873" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583831021873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583783965743" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583783965744">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583831021873" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583831021873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583783965744" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1583783571227">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583831021873" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1583827418000">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583783571227" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1583783571227">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583827418000" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1583827418000">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1583783571227" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1583783571227">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1583827418000" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1583827418000">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1583783571227" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1583783571227">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1583827418000" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1583827418000">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583783571227" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583827418000" />
     <state x="350" y="70" key="NewModule_or_Project.wizard" timestamp="1583659547632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="350" y="70" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1583659547632" />
-    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1583776759463">
+    <state x="422" y="79" key="RollbackChangesDialog" timestamp="1583829963604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583776759463" />
+    <state x="422" y="79" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583829963604" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1583823480200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583823480200" />
     <state x="387" y="266" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583736211588">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -318,8 +294,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tests/M1PublicTests.java</url>
-          <line>3346</line>
-          <option name="timeStamp" value="5" />
+          <line>3522</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
